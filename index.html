@@ -5,9 +5,10 @@
  <body bgcolor="#000000" onload="main();">
   <div id="text" style="font-size:large;color:#ffffff;">output text</div>
   <script>
+   "use strict";
    const text = document.getElementById('text');
    const main = function(){
-    text.innerText = calc
+    text.innerText = calc()
    }
    const calc = function(){
     return 2 + 3
